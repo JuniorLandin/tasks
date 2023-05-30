@@ -1,0 +1,126 @@
+.container{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentForm{
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 18px;
+    padding-bottom: 28px;
+    margin-top: 58px;
+}
+
+.title{
+    color: white;
+    margin-bottom: 8px;
+}
+.checkboxArea label{
+    margin-left: 8px;
+    color: #fff;
+}
+.checkbox{
+    width: 18px;
+    height: 18px;
+    margin: 14px 0;
+}
+.button{
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3183ff;
+    padding: 12px 0;
+    font-size: 18px;
+}
+
+.divList{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 34px;
+    padding: 0 18px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.taskContainer a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.taskContainer h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.task{
+    margin-bottom: 14px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1.5px solid #909090;
+    border-radius: 4px;
+    padding: 14px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.tagContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
+}
+
+.tag{
+    background-color: #3183ff;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.shareButton{
+    background: transparent;
+    border: 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.taskContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskContent p{
+    white-space: pre-wrap;
+    color: white;
+}
+
+.trashButton{
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+}
